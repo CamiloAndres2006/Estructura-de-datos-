@@ -1,0 +1,115 @@
+ejercicio_1.php
+Descripción:
+Verifica si un número ingresado es par o impar.
+
+Variables:
+
+$Numero: número ingresado por el usuario.
+
+$Resultado: almacena si es par o impar.
+
+Funcionamiento:
+Se recibe el número, se aplica el operador módulo % y se imprime el resultado según sea divisible entre 2 o no.
+
+ejercicio_2.php
+Descripción:
+Evalúa la edad de una persona y determina si es mayor o menor de edad.
+
+Variables:
+
+$Edad: edad ingresada por el usuario.
+
+$Resultado: mensaje de salida.
+
+Funcionamiento:
+Se compara si la edad es mayor o igual a 18. Dependiendo del caso, se muestra el mensaje correspondiente.
+
+ejercicio_3.php
+Descripción:
+Imprime la tabla de multiplicar del número ingresado.
+
+Variables:
+
+$Numero: número ingresado.
+
+$Contador: variable del ciclo.
+
+$Resultado: resultado de cada multiplicación.
+
+Funcionamiento:
+Usa un bucle for del 1 al 10 para generar e imprimir la tabla.
+
+ejercicio_4.php
+Descripción:
+Filtra una secuencia de números separando los mayores e iguales a 5 de los menores o iguales a 5.
+
+Variables:
+
+$Secuencia: arreglo del 0 al 9.
+
+$SecuenciaMenores: números menores o iguales a 5.
+
+$SecuenciaMayores: números mayores o iguales a 5.
+
+$Valor: variable interna de la función anónima.
+
+Funcionamiento:
+array_filter() con funciones anónimas divide los datos en dos grupos y los muestra con print_r().
+
+ejercicio_5.php
+Descripción:
+Ordena un arreglo asociativo por valores y otro por claves.
+
+Variables:
+
+$Personas: arreglo ordenado por valores.
+
+$Estudiantes: arreglo ordenado por claves.
+
+Funcionamiento:
+asort() ordena por valores y ksort() por claves. Luego se muestran ambos arreglos.
+
+ejercicio_6.php
+Descripción:
+Calcula el promedio de tres notas y determina si la persona aprobó.
+
+Variables:
+
+$Nota1, $Nota2, $Nota3: notas ingresadas.
+
+$Promedio: resultado del cálculo.
+
+$Resultado: mensaje de aprobado o reprobado.
+
+Funcionamiento:
+Se suman las notas y se divide entre 3. Si el resultado es mayor o igual a 3.0, se considera aprobado.
+
+ejercicio_7.php
+Descripción:
+Calcula el factorial de un número.
+
+Variables:
+
+$Numero: número ingresado.
+
+$Factorial: resultado acumulado.
+
+$Contador: variable del ciclo.
+
+Funcionamiento:
+Ciclo while que multiplica desde 1 hasta el número ingresado.
+
+Pilas_1.php
+Descripción:
+Simula una pila (estructura LIFO) usando un arreglo.
+
+Variables:
+
+$Pila: arreglo que representa la pila.
+
+$Elemento: elementos a insertar.
+
+$UltimoElemento: resultado del array_pop.
+
+Funcionamiento:
+Agrega con array_push() y retira el último con array_pop().
